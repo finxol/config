@@ -1,0 +1,23 @@
+/* Styles for My Cecurity */
+
+:root {
+	--color-secondary-orange: rgb(185, 73, 1);
+	--color-primary-blue: 70, 155, 230;
+}
+
+.bg-monochrome-6 {
+	background-color: rgb(225, 225, 225);
+}
+
+body {
+	filter: invert(1) hue-rotate(180deg);
+	background: #000;
+}
+
+object[type="application/pdf"] .page {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+.btn {
+	border-radius: .5rem !important;
+}

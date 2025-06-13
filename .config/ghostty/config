@@ -1,0 +1,8 @@
+confirm-close-surface = false
+window-padding-color = background
+theme = peppermint
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+font-family = "MonoLisa Script"

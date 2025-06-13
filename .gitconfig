@@ -1,0 +1,19 @@
+[user]
+	name = finxol
+	email = git@finxol.io
+	signingkey = A5BE641C6434A4FE
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[tag]
+	gpgSign = true
+[gitbutler]
+	aiModelProvider = ollama
+	aiOllamaModelName = llama3.1
+
+; Karr specific config
+[includeIf "gitdir:~/Karr/"]
+	path = ~/Karr/code/.gitconfig

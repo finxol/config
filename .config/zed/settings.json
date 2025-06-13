@@ -1,0 +1,81 @@
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "edit_predictions": {
+        "mode": "eager",
+        "copilot": {
+            "proxy": null,
+            "proxy_no_verify": null
+        },
+        "enabled_in_text_threads": false
+    },
+    "language_servers": ["!biome"],
+    "languages": {
+        "Plain Text": {
+            "show_edit_predictions": false
+        },
+        "Markdown": {
+            "show_edit_predictions": false,
+            "soft_wrap": "none"
+        },
+        "Vue.js": {
+            "language_servers": ["vls"],
+            "formatter": "language_server"
+        },
+        "Java": {
+            "show_edit_predictions": true
+        }
+    },
+    "show_edit_predictions": true,
+    "features": {
+        "edit_prediction_provider": "zed"
+    },
+    "agent": {
+        "inline_assistant_model": {
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4-latest"
+        },
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4-thinking"
+        },
+        "version": "2"
+    },
+    "autosave": "on_focus_change",
+    "base_keymap": "JetBrains",
+    "vim_mode": true,
+    "theme": "Ayu Dark",
+    "wrap_guides": [80],
+    "diagnostics": {
+        "inline": {
+            "enabled": true
+        }
+    },
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": false
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 14.0,
+    "buffer_font_family": "MonoLisa Script",
+    "experimental.theme_overrides": {
+        "syntax": {
+            "comment": {
+                "font_style": "italic",
+                "font_family": "MonoLisa Script"
+            },
+            "comment.doc": {
+                "font_style": "italic",
+                "font_family": "MonoLisa Script"
+            }
+        }
+    },
+    "tab_size": 4,
+    "file_types": {
+        "Haskell": ["idr"]
+    }
+}

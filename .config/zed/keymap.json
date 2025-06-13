@@ -1,0 +1,24 @@
+[
+    {
+        "bindings": {
+            "cmd-ctrl-t": "workspace::NewTerminal",
+            "cmd-ctrl-n": "workspace::NewFile",
+            "cmd--": "zed::DecreaseBufferFontSize",
+            "cmd-+": "zed::IncreaseBufferFontSize",
+            "cmd-t": "file_finder::Toggle",
+            "cmd-ctrl-c": "workspace::ToggleLeftDock",
+            "cmd-ctrl-r": "workspace::ToggleRightDock",
+            "cmd-ctrl-g": "git_panel::ToggleFocus",
+            "cmd-ctrl-f": "project_panel::ToggleFocus",
+            "cmd-1": "workspace::ToggleLeftDock",
+            "cmd-2": "workspace::ToggleRightDock"
+        }
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-up": "editor::MoveLineUp",
+            "alt-down": "editor::MoveLineDown"
+        }
+    }
+]
